@@ -1,10 +1,5 @@
 # Simulation-setup-for-UAV-object-tracking
 Simulation setup (raspberry pi) for UAV object tracking 
-# first do this, then u can go on with the real raspberry pi 4
-
-I’m gonna give you every little detail you need to set this up. You won’t have to guess, mess around, or get frustrated. I’ll explain everything step by step, like who’s got your back. Let’s dive in.
-I hope this small effort will benefit even a little bit..
----
 
 ## **Step 1: Simulating the Drone (Using SITL)**  
 
@@ -192,28 +187,8 @@ print("Drone is returning to launch!")
 
 ---
 
-## **Final Step: Bring Everything Together**  
 
-Now you’ve got:  
-1. **SITL** simulating the drone.  
-2. **YOLOv7** spotting objects.  
-3. **Dronekit** sending commands to the drone.  
 
-Test the pipeline step by step:  
-1. Detect objects using YOLOv7.  
-2. Check if the object is in the geofence.  
-3. Command the drone to move to the object’s location.  
-4. If the object leaves the geofence, trigger **Return to Launch**.
-
----
-
-## **Quick Tips**
-- Use **Mission Planner** to monitor the drone in real-time.  
-- Always test one small step at a time—don’t try to run the whole thing at once.  
-- If you get stuck, drop me a message—I’m here for you.
-
-# You’ve got this! Let me know how it goes. 🚀
-# you know how to do that
 
 
 
